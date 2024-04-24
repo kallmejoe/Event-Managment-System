@@ -1,0 +1,44 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles_login.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form class="form" id="form">
+        <h1>Sign Up</h1>
+        <div class="input_box">
+          <input type="text" placeholder="Firstname" class="firstname" onfocus="" required />
+          <p class='invalid-feedback firstname'>Invalid firstname</p>
+        </div><br>
+        <div class="input_box">
+          <input type="text" placeholder="Username" class="username" required />
+          <p class='invalid-feedback username'>Invalid username</p>
+        </div><br>
+        <div class="input_box">
+          <input type="password" placeholder="Password" class="password" required />
+          <p class='invalid-feedback password'>Invalid password</p>
+        </div><br>
+        <div class="input_box">
+          <input type="password" placeholder="Confirm Password" class="confirm-password" required />
+          <p class='invalid-feedback confirm-password'>Passwords do not match</p>
+        </div><br>
+        <div class="input_box">
+          <input type="email" placeholder="Email" class="email" required />
+          <p class='invalid-feedback email'>Invalid email</p>
+        </div><br>
+        <div class="input_box">
+          <input type="tel" placeholder="Phone Number" class="phone" required />
+          <p class='invalid-feedback phone'>Invalid phone number</p>
+        </div><br>
+        <div class="radio_box">
+          <input type="radio" name="gender" value="male" /> Male 
+          <input type="radio" name="gender" value="female" /> Female <br>
+        </div><br>
+        <button type="submit" class="btn submit" id="BTN" onclick="saveData()">Sign Up</button>
+      </form>
+    </div>
+  </body>
+  </html>

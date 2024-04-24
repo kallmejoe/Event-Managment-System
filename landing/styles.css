@@ -1,0 +1,144 @@
+body{
+    background-color: #232b2b;
+    padding: 0;
+    margin:0 ;
+    overflow-x: hidden;
+    text-align: center;
+
+}
+
+header{
+    background-color: black;
+    padding:30px;
+    box-shadow: 0 0 3px #000;
+
+}
+
+header li {
+    display: inline;
+    padding-left: 30px ;
+    float: right;
+    position: relative;
+    top:-15px;
+    
+}
+
+header li a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+
+header li a:hover
+{
+    color: royalblue;
+ 
+}
+
+header ul #wallet a{
+    color:#fff;
+    background-color: rgba(255, 179, 0, 0.903);
+    border-radius: 30px;
+    transition: .3s ease;
+
+}
+
+header ul #wallet a:hover
+{
+    background-color: royalblue;
+}
+
+header ul #eventy {
+    color:#fff;
+    float: left;
+    font-size: 40px;
+    position: relative;
+    top:-35px;
+    right: 70px;
+
+}
+p{
+    color:aliceblue;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    left:25px;
+    
+}
+
+
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.add.circle.material-symbols-outlined{
+    color:aliceblue;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+    position: relative;
+    top:-7px;
+
+}
+
+.add.circle.material-symbols-outlined:hover
+{
+    color: royalblue;
+ 
+}
+
+.search{
+    
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 14px;
+    border-radius: 28px;
+    background: #f6f6f6;
+    transition: box-shadow 0.25s;
+}
+
+.search:focus-within{
+
+   box-shadow: 0 0 2px rgb(0, 0, 0,0.75);
+}
+.search-input{
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    color:#333333;
+    margin-left: 14px;
+    outline: none;
+    border:none;
+    background: transparent;
+    width: 300px;
+}
+
+.search-input::placeholder,
+.search-icon{
+    color: rgba(0,0,0.0.25);
+}
+
+.trending-events{
+    color:aliceblue;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    left:25px;
+}
+
+.trend-event-table{
+
+    color:aliceblue;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left:-20px;
+
+}

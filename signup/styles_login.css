@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: url(lol3.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
+
+.wrapper h1 {
+  font-size: 42px;
+  text-align: center;
+}
+
+.wrapper {
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  width: 420px;
+}
+
+.input_box {
+  margin: 10px 0;
+}
+
+.wrapper .input_box {
+  width: 100%;
+  position: relative;
+}
+
+.input_box input {
+  width: 98%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 3px solid rgba(23, 136, 207, 0.893);
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+}
+
+.invalid-feedback {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+
+.invalid-feedback.active {
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: red;
+  font-size: 14px;
+}
+
+.wrapper .btn {
+  width: 45%;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Placeholder style */
+.input_box input::placeholder {
+  color: rgba(255, 255, 255, 0.7); 
+  font-size: 16px; 
+  font-weight: normal;
+  transition: color 0.3s ease; 
+}
+
+.input_box input {
+  padding-left: 20px; 
+}
+
+
+.input_box input:focus::placeholder {
+  color: rgba(255, 255, 255, 0.5); 
+}
+
+.input_box {
+  margin-bottom: 20px; 
+}
+.submit{
+  align-self: center;
+}
